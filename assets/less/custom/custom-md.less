@@ -1,0 +1,54 @@
+.tempo{
+    .five-day{
+        list-style: none;
+        overflow: auto;
+        text-align: center;
+    }
+    .diariamente {
+        display: block;
+        text-align: center;
+        float: left;
+        width: 16.5%;
+        border-bottom: 0;
+        border-right: 1px solid rgba(255, 255, 255, 0.58);
+        &:last-child{
+            border: 0;
+        }
+        .day, .icon, .desc {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .day {
+            font-weight: bold;
+        }
+        .icon {
+            display: block;
+            height: 70px;
+        }
+        .desc {
+            display: block;
+            opacity: .5;
+            font-size: 12px;
+            height: 40px;
+        }
+        .temp {
+            display: block;
+            float: left;
+            width: 50%;
+        }
+    }
+}
+.header-page {
+    .search-city{
+        &.collapse{
+            display: block;
+        }
+    }
+    .local{
+        text-align: left;
+    }
+    .icon-marker{
+        margin: 0;
+    }
+}

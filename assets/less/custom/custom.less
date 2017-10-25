@@ -1,0 +1,25 @@
+
+//Customização para o site
+@brand-theme: #000;
+@light: #eeeeee;
+@lighter: rgba(238, 238, 238,.4);
+
+
+//Plugins
+@import "../plugins/bootstrap/bootstrap.less";
+@import "../plugins/normalize.less";
+
+//fonte padrão
+@import './fonts/open-sans.less';
+@font-family-base: 'Open Sans';
+
+//estilo para cada resolução
+@import "keyframes";
+@import "custom-xs";
+
+@media only screen and (min-width: @screen-sm){
+    @import "custom-sm";    
+}
+@media only screen and (min-width: @screen-md){
+    @import "custom-md";    
+}

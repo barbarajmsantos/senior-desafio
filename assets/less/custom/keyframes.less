@@ -1,0 +1,28 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes bgAnim {
+    from {
+        background-position: 0px 0%, center center;
+    }
+    to {
+        background-position: -512px 0%, center center;
+    }
+}
+
+@-webkit-keyframes bgAnim {
+    from {
+        background-position: 0px 0%, center center;
+    }
+    to {
+        background-position: -512px 0%, center center;
+    }
+}

@@ -1,0 +1,12 @@
+/.ideia
+/node_modules
+
+assets/css
+assets/js/min
+assets/components/jquery/*
+assets/components/jquery/dist/*
+!assets/components/jquery/dist/jquery.js
+assets/components/jquery-ui/*
+!assets/components/jquery-ui/jquery-ui.js
+assets/components/normalize-css/*
+!assets/components/normalize-css/normalize.css

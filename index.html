@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Agenda do Distribuidor" />
+    <meta name="author" content="Bárbara Santos" />
+    <link rel="icon" href="assets/images/favicon.png">
+    <title>Desafio Sênior - Previsão do tempo</title>
+    <script src="assets/js/min/header.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/cssPlugins.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
+
+
+</head>
+
+<body>
+
+<section class="header-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="brand" href="index.html">
+                    <div class="logo">
+                        <img src="assets/images/logo.png" alt="Previsão do Tempo">
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-8">
+               <div class="local">
+                   <a class="icon-marker" data-toggle="collapse" href="#search-city" aria-expanded="false" aria-controls="search-city">
+                       <i class="glyphicon glyphicon-map-marker"></i>
+                       <span class="h4">Alterar cidade</span>
+                   </a>
+                   <div class="col-sm-12">
+                       <div id="search-city" class="search-city collapse">
+                           <form class="form-horizontal">
+                               <select id="estados" class="form-control selectboxit">
+                                   <option value=""></option>
+                               </select>
+                               <select id="cidades" name="test" class="form-control select2" data-allow-clear="true" data-placeholder="Escolha uma cidade">
+                                   <option></option>
+                               </select>
+                               <button type="submit" class="btn btn-warning"><span>Enviar</span></button>
+                           </form>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="tempo">
+    <div class="container">
+        <div class="previsao">
+            <div class="weather" id="weather">
+                <div class="cidade">
+                    <h1></h1>
+                    <div class="float-right"><a href=""></a></div>
+                </div>
+                <div class="dados">
+                    <div class="icon dados-icon"></div>
+                    <div class="dados-condicoes">
+                        <div class="dados-temp"></div>
+                        <span id="w-currently" class="dados-desc"></span>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="five-day"></ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-xs-12 text-center"><p>Copyright 2017 Previsão do Tempo</p></div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/min/footer.js"></script>
+</body>
+
+</html>
